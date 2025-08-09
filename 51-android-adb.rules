@@ -1,0 +1,5 @@
+# Rule for Samsung S23 Ultra
+SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", ATTR{idProduct}=="6860", MODE="0666", GROUP="plugdev", SYMLINK+="s23"
+
+# Rule for Nokia G11 Plus
+SUBSYSTEM=="usb", ATTR{idVendor}=="1782", ATTR{idProduct}=="5d31", MODE="0666", GROUP="plugdev", SYMLINK+="nokia_g11"
